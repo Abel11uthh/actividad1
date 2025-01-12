@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal UTHH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; 
+            color: #333; 
+        }
+
+        header {
+            background-color: #007d34; 
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            max-height: 70px;
+        }
+
+        header .title {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #00bcd4; /* Azul claro al pasar el mouse */
+        }
+
+        .content {
+            max-width: 600px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 2rem;
+            color: #007d34;
+            margin-bottom: 15px;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #007d34;
+            color: #fff;
+            font-size: 0.9rem;
+            position: relative;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo uthh.png" alt="Logo UTHH">
+        <div class="title">
+            Portal Digital de Atención Integral a Estudiantes de la UTHH
+        </div>
+        <img src="escudo.png" alt="Escudo Hidalgo">
+    </header>
+    <nav>
+        <a href="#">Cerrar sesión</a>
+        <a href="#">Datos de usuario</a>
+        <a href="#">Consultar mis calificaciones</a>
+        <a href="#">Entrevista inicial</a>
+        <a href="#">Pagos</a>
+        <a href="#">Agenda</a>
+    </nav>
+    <div class="content">
+        <h1>Bienvenido</h1>
+        <p><strong>Abel hernandez cruz</strong></p>
+        <p>ALUMNO DEL %to. CUATRIMESTRE, GRUPO A</p>
+        <p>enero - marzo 20243</p>
+    </div>
+    <footer>
+        <p>Hoy es, Viernes, 11 de enero de 2025</p>
+    </footer>
+</body>
+</html>
